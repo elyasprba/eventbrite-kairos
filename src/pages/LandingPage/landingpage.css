@@ -1,0 +1,18 @@
+.backgorundLandingPage {
+   background-image: url('../../assets/backgorund/bg-home.jpg');
+   background-size: cover;
+   background-position: 60% 60%;
+   height: 450px;
+}
+
+.textColorLanding {
+   color: #ffffff;
+}
+
+.btnColor {
+   background-color: orangered;
+}
+
+.fontSizeLandingPage {
+   font-size: 75px;
+}

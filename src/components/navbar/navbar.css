@@ -1,0 +1,15 @@
+.colorTextNavbar {
+   color: orangered;
+}
+
+.fontSizeNavbar {
+   font-weight: 400;
+}
+
+.cursorPointerNavbar:hover {
+   background-color: white;
+}
+
+.widthFormInput {
+   width: 40%;
+}
