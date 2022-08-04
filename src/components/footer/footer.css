@@ -1,0 +1,10 @@
+.backgroundColorFooter {
+   background-color: #1e0a3c;
+   width: 100%;
+}
+
+.colorTextFooter {
+   color: #c4c4c4;
+   font-size: 12px;
+   cursor: pointer;
+}

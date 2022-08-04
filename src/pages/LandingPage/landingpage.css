@@ -16,3 +16,50 @@
 .fontSizeLandingPage {
    font-size: 75px;
 }
+
+.formSubmitLandingPage {
+   border: none;
+   width: 100%;
+}
+
+.listCtegoryItem {
+   cursor: pointer;
+   color: black;
+   text-decoration: none;
+}
+
+.listCtegoryItem:hover {
+   color: blue;
+}
+
+.textTrandingCategories {
+   padding-top: 6%;
+   padding-left: 8%;
+}
+
+.bgColorTrending {
+   background-color: #fdf7f5;
+}
+
+.bgColorName {
+   background-color: #f8f7fa;
+}
+
+.colorTextEvent {
+   color: orange;
+}
+
+.CardEvent {
+   cursor: pointer;
+}
+
+.underline {
+   flex: 1;
+   height: 1px;
+   padding-top: 10px;
+   border-bottom: 2px solid #c4c4c4;
+}
+
+.textColorMoreEvent {
+   color: #c4c4c4;
+}
