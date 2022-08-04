@@ -4,7 +4,7 @@ import './landingpage.css';
 // import module react
 import React from 'react';
 import { ChevronDown, MusicNoteBeamed, PaletteFill, HandbagFill, Heart, BoomboxFill, BriefcaseFill, CupStraw, Bicycle, Person } from 'react-bootstrap-icons';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 //import others
 import Navbar from '../../components/navbar';
@@ -12,14 +12,8 @@ import Footer from '../../components/footer';
 import dummy from '../../utility/dummy';
 
 export default function LandingPage() {
-   // const [isActive, setIsActive] = useState('All');
    const data = dummy;
-
-   // const navigate = useNavigate();
-
-   // const magic = () => {
-   //    navigate(`/detail-event/${id}`);
-   // };
+   const navigate = useNavigate();
 
    return (
       <>
@@ -134,7 +128,13 @@ export default function LandingPage() {
                   <h3 className="fw-bold my-4 pb-3">Events in Kotamadya Jakarta Barat</h3>
                   <div className="row mb-5">
                      {data.map((result) => (
-                        <div className="col-lg-3 col-md-6 mt-2">
+                        <div
+                           className="col-lg-3 col-md-6 mt-2"
+                           onClick={() => {
+                              // console.log(result.id);
+                              navigate(`/detail-event/${result.id}`);
+                           }}
+                        >
                            <div class="card border shadow rounded d-flex mt-2 CardEvent" idx={result.id}>
                               <img src={result.image} class="card-img-top border" alt="event" />
                               <div class="card-body">

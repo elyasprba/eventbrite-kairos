@@ -1,6 +1,6 @@
 const data = [
    {
-      id: '324732749548395454231',
+      id: '324732749548395454237',
       name: 'WEBINAR RAHASIA PIPA DUIT 24/7',
       image: 'https://res.cloudinary.com/dqlpsz6fz/image/upload/v1659609721/test/https___cdn.evbuc.com_images_146651659_312123412152_1_original_vn8fv0.avif',
       infoContact: 'Kwet Liung / 082260779360',
@@ -42,18 +42,18 @@ const data = [
       description: 'This is an online event What You ll Learn: How to be more productive through increased focus. Apps and online tools that improve your concentration. Productivity strategies backed by research in neuroscience and cognitive psychology.',
    },
    {
-      id: '324732749548395454233',
-      name: 'How To Improve Your Focus and Productivity - Jakarta',
-      image: 'https://res.cloudinary.com/dqlpsz6fz/image/upload/v1659609720/test/https___cdn.evbuc.com_images_215539729_20036478386_1_original_hllfn5.avif',
-      infoContact: 'IrisReading.com',
-      followers: '34273',
-      dateTime: 'Tue, August 9, 2022 9:00 PM - 10:00 PM WIB',
+      id: '324732749548395454234',
+      name: 'Webinar INTERNET MARKETING REVOLUTION',
+      image: 'https://res.cloudinary.com/dqlpsz6fz/image/upload/v1659609720/test/https___cdn.evbuc.com_images_293461349_312123412152_1_original_khqf79.avif',
+      infoContact: 'Kwet Liung / 082260779360',
+      followers: '1042',
+      dateTime: 'Tue, August 9, 2022 7:00 PM - 8:00 PM WIB',
       location: {
-         name: 'ONLINE',
-         Jl: 'Jakarta, aerah Khusus Ibukota 10350',
-         Kec: '-',
+         name: 'Hotel Grand Tjokro ( Di HP ATAU LAPTOP ANDA )',
+         Jl: 'Jalan Daan Mogot No.63',
+         Kec: 'Kec. Grogol petamburan, Daerah Khusus Ibukota Jakarta 11470',
       },
-      description: 'This is an online event What You ll Learn: How to be more productive through increased focus. Apps and online tools that improve your concentration. Productivity strategies backed by research in neuroscience and cognitive psychology.',
+      description: 'Temukan 3 Rahasia SAKTI Bagaimana Memulai Bisnis di Era NEW NORMAL Tanpa Perlu Modal Besar Bahkan Langsung Bisa Anda Praktekkan Setelah Webinar!',
    },
    //    {
    //       id: '324732749548395454234',

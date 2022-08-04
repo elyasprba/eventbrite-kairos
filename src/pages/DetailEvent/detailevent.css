@@ -1,0 +1,30 @@
+.imageDetailEvent {
+   background-size: cover;
+   background-position: 50%;
+   height: 400px;
+}
+
+.mainContent {
+   width: 100%;
+}
+
+.detailInformation {
+   width: 100%;
+   background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+.registerEventDetail {
+   width: 30%;
+}
+
+.asideEventDetail {
+   flex: 2;
+}
+
+.mainEvent {
+   flex: 1;
+}
+
+.borderTags {
+   width: 25%;
+}
