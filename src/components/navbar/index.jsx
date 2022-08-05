@@ -7,7 +7,7 @@ export default function Navbar() {
       <>
          <nav class="navbar navbar-expand-lg py-3 px-2 navbar-light bg-light">
             <div class="container-fluid">
-               <a class="navbar-brand fw-bold colorTextNavbar" href="#">
+               <a class="navbar-brand fw-bold colorTextNavbar" href="/">
                   eventbrite
                </a>
                <form class="d-flex widthFormInput">
